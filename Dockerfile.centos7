@@ -1,0 +1,7 @@
+FROM centos:7
+
+ADD bin /usr/bin/
+
+RUN yum install -y bash vim
+
+ENTRYPOINT ["bash"]
